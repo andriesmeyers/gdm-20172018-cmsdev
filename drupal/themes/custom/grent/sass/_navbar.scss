@@ -1,0 +1,26 @@
+.toolbar .toolbar-bar{
+    z-index: 1001;
+    color: rgba(0,0,0,.5) !important;
+    background-color: #f8f9fa!important;
+    box-shadow: none;
+}
+.toolbar-bar a{
+    color: rgba(0,0,0,.5) !important;
+}
+.toolbar-menu{
+    overflow-y: hidden;
+}
+.toolbar-menu::-webkit-scrollbar{
+    display: none !important;
+}
+.toolbar-bar .toolbar-icon-menu:before,
+.toolbar-bar .toolbar-icon-menu:active:before,
+.toolbar-bar .toolbar-icon-menu.is-active:before {
+    content: "\f0c9";
+    padding-top: 14px;
+    color: rgba(0,0,0,.3) !important;
+    font-family: FontAwesome;
+    background-image: none;
+    font-size: 22px;
+    left: 0.337em !important;
+}

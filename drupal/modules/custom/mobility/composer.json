@@ -1,0 +1,14 @@
+{
+  "name": "drupal/mobility",
+  "type": "drupal-module",
+  "description": "Mobility module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/mobility",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/mobility",
+    "source": "http://cgit.drupalcode.org/mobility"
+  },
+  "require": { }
+}

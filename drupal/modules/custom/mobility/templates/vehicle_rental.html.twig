@@ -1,0 +1,22 @@
+{#
+/**
+ * @file vehicle_rental.html.twig
+ * Default theme implementation to present Vehicle rental data.
+ *
+ * This template is used when viewing Vehicle rental pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_vehicle_rental()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('vehicle_rental') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

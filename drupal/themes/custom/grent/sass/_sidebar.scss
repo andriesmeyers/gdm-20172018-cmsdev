@@ -1,0 +1,27 @@
+.toolbar .toolbar-tray-vertical{
+    box-shadow: none;
+}
+.toolbar .toolbar-tray-vertical::-webkit-scrollbar{
+    display: none;
+}
+.toolbar .menu-item{
+    padding: 0 10px;
+}
+.toolbar .menu-item .toolbar-box a {
+    text-transform: uppercase !important;
+    padding-left: 50px;
+    color: rgba($color: #000000, $alpha: 0.66) !important;
+}
+.toolbar-tray-horizontal a:focus, .toolbar-box a:focus{
+    background-color: inherit !important;
+}
+.toolbar .toolbar-tray-vertical .menu-item + .menu-item {
+    border-top: 2px solid #f5f5f5;
+}
+.toolbar .toolbar-icon.toolbar-handle:focus{
+    background-color: inherit !important;
+}
+.toolbar .toolbar-menu .toolbar-menu .menu-item.level-2{
+    background-color: #f5f5f5;
+    border: none;
+}

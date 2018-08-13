@@ -1,0 +1,50 @@
+<?php
+/**
+ * @file
+ * Contains mobility.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_help().
+ */
+function mobility_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the mobility module.
+    case 'help.page.mobility':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Mobility module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function mobility_theme() {
+  return [
+    'mobility' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+/**
+ * Implements hook_theme().
+ */
+function mobility_menu_local_tasks_alter(&$data, $route_name) {
+  if(isset($data['tabs']) && count($data['tabs']) > 0){
+    foreach ($data['tabs'][0] as $key => $value){
+      $data['tabs'][0][$key]['#link']['localized_options']['attributes'] = array('class'=>'nav-link');
+    };
+  }
+  
+}
+
+
+

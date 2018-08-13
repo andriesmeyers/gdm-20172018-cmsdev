@@ -1,0 +1,25 @@
+entity.vehicle.add_form:
+  route_name: entity.vehicle.add_form
+  title: 'Add Vehicle'
+  appears_on:
+    - entity.vehicle.collection
+entity.location.add_form:
+  route_name: entity.location.add_form
+  title: 'Add Location'
+  appears_on:
+    - entity.location.collection
+entity.model.add_form:
+  route_name: entity.model.add_form
+  title: 'Add Model'
+  appears_on:
+    - entity.model.collection
+entity.manufacturer.add_form:
+  route_name: entity.manufacturer.add_form
+  title: 'Add Manufacturer'
+  appears_on:
+    - entity.manufacturer.collection
+entity.vehicle_rental.add_form:
+  route_name: entity.vehicle_rental.add_form
+  title: 'Add Vehicle rental'
+  appears_on:
+    - entity.vehicle_rental.collection

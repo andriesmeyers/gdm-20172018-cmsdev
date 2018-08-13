@@ -1,0 +1,108 @@
+add vehicle entities:
+  title: 'Create new Vehicle entities'
+
+administer vehicle entities:
+  title: 'Administer Vehicle entities'
+  description: 'Allow to access the administration form to configure Vehicle entities.'
+  restrict access: true
+
+delete vehicle entities:
+  title: 'Delete Vehicle entities'
+
+edit vehicle entities:
+  title: 'Edit Vehicle entities'
+
+view published vehicle entities:
+  title: 'View published Vehicle entities'
+
+view unpublished vehicle entities:
+  title: 'View unpublished Vehicle entities'
+add location entities:
+  title: 'Create new Location entities'
+
+administer location entities:
+  title: 'Administer Location entities'
+  description: 'Allow to access the administration form to configure Location entities.'
+  restrict access: true
+
+delete location entities:
+  title: 'Delete Location entities'
+
+edit location entities:
+  title: 'Edit Location entities'
+
+view published location entities:
+  title: 'View published Location entities'
+
+view unpublished location entities:
+  title: 'View unpublished Location entities'
+add model entities:
+  title: 'Create new Model entities'
+
+administer model entities:
+  title: 'Administer Model entities'
+  description: 'Allow to access the administration form to configure Model entities.'
+  restrict access: true
+
+delete model entities:
+  title: 'Delete Model entities'
+
+edit model entities:
+  title: 'Edit Model entities'
+
+view published model entities:
+  title: 'View published Model entities'
+
+view unpublished model entities:
+  title: 'View unpublished Model entities'
+
+view all model revisions:
+  title: 'View all Model revisions'
+
+revert all model revisions:
+  title: 'Revert all Model revisions'
+  description: 'Role requires permission <em>view Model revisions</em> and <em>edit rights</em> for model entities in question or <em>administer model entities</em>.'
+
+delete all model revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Model revisions</em> and <em>delete rights</em> for model entities in question or <em>administer model entities</em>.'
+add manufacturer entities:
+  title: 'Create new Manufacturer entities'
+
+administer manufacturer entities:
+  title: 'Administer Manufacturer entities'
+  description: 'Allow to access the administration form to configure Manufacturer entities.'
+  restrict access: true
+
+delete manufacturer entities:
+  title: 'Delete Manufacturer entities'
+
+edit manufacturer entities:
+  title: 'Edit Manufacturer entities'
+
+view published manufacturer entities:
+  title: 'View published Manufacturer entities'
+
+view unpublished manufacturer entities:
+  title: 'View unpublished Manufacturer entities'
+add vehicle type entities:
+  title: 'Create new Vehicle type entities'
+add vehicle rental entities:
+  title: 'Create new Vehicle rental entities'
+
+administer vehicle rental entities:
+  title: 'Administer Vehicle rental entities'
+  description: 'Allow to access the administration form to configure Vehicle rental entities.'
+  restrict access: true
+
+delete vehicle rental entities:
+  title: 'Delete Vehicle rental entities'
+
+edit vehicle rental entities:
+  title: 'Edit Vehicle rental entities'
+
+view published vehicle rental entities:
+  title: 'View published Vehicle rental entities'
+
+view unpublished vehicle rental entities:
+  title: 'View unpublished Vehicle rental entities'

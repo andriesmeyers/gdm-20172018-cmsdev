@@ -1,0 +1,15 @@
+name: Grent
+type: theme
+description: 'Custom theme for Grent'
+package: Other
+core: 8.x
+libraries: 
+  - grent/global-css
+  - grent/global-js
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css
+  - core/themes/stable/css/system/components/align.module.css
+regions:
+  content:  'Content'
+  header:   'Header'
+  footer:   'Footer'

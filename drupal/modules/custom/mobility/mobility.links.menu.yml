@@ -1,0 +1,70 @@
+
+# Vehicle menu items definition
+entity.vehicle.collection:
+  title: 'Vehicle list'
+  route_name: entity.vehicle.collection
+  description: 'List Vehicle entities'
+  parent: system.admin_structure
+  weight: 100
+
+vehicle.admin.structure.settings:
+  title: 'Vehicle settings'
+  description: 'Configure Vehicle entities'
+  route_name: vehicle.settings
+  parent: system.admin_structure
+
+# Location menu items definition
+entity.location.collection:
+  title: 'Location list'
+  route_name: entity.location.collection
+  description: 'List Location entities'
+  parent: system.admin_structure
+  weight: 100
+
+location.admin.structure.settings:
+  title: 'Location settings'
+  description: 'Configure Location entities'
+  route_name: location.settings
+  parent: system.admin_structure
+
+# Model menu items definition
+entity.model.collection:
+  title: 'Model list'
+  route_name: entity.model.collection
+  description: 'List Model entities'
+  parent: system.admin_structure
+  weight: 100
+
+model.admin.structure.settings:
+  title: 'Model settings'
+  description: 'Configure Model entities'
+  route_name: model.settings
+  parent: system.admin_structure
+
+# Manufacturer menu items definition
+entity.manufacturer.collection:
+  title: 'Manufacturer list'
+  route_name: entity.manufacturer.collection
+  description: 'List Manufacturer entities'
+  parent: system.admin_structure
+  weight: 100
+
+manufacturer.admin.structure.settings:
+  title: 'Manufacturer settings'
+  description: 'Configure Manufacturer entities'
+  route_name: manufacturer.settings
+  parent: system.admin_structure
+
+# Vehicle rental menu items definition
+entity.vehicle_rental.collection:
+  title: 'Vehicle rental list'
+  route_name: entity.vehicle_rental.collection
+  description: 'List Vehicle rental entities'
+  parent: system.admin_structure
+  weight: 100
+
+vehicle_rental.admin.structure.settings:
+  title: 'Vehicle rental settings'
+  description: 'Configure Vehicle rental entities'
+  route_name: vehicle_rental.settings
+  parent: system.admin_structure

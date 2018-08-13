@@ -1,0 +1,114 @@
+# Vehicle routing definition
+vehicle.settings_tab:
+  route_name: vehicle.settings
+  title: 'Settings'
+  base_route: vehicle.settings
+
+entity.vehicle.canonical:
+  route_name: entity.vehicle.canonical
+  base_route: entity.vehicle.canonical
+  title: 'View'
+
+entity.vehicle.edit_form:
+  route_name: entity.vehicle.edit_form
+  base_route: entity.vehicle.canonical
+  title: 'Edit'
+
+entity.vehicle.delete_form:
+  route_name:  entity.vehicle.delete_form
+  base_route:  entity.vehicle.canonical
+  title: Delete
+  weight: 10
+
+# Location routing definition
+location.settings_tab:
+  route_name: location.settings
+  title: 'Settings'
+  base_route: location.settings
+
+entity.location.canonical:
+  route_name: entity.location.canonical
+  base_route: entity.location.canonical
+  title: 'View'
+
+entity.location.edit_form:
+  route_name: entity.location.edit_form
+  base_route: entity.location.canonical
+  title: 'Edit'
+
+entity.location.delete_form:
+  route_name:  entity.location.delete_form
+  base_route:  entity.location.canonical
+  title: Delete
+  weight: 10
+
+# Model routing definition
+model.settings_tab:
+  route_name: model.settings
+  title: 'Settings'
+  base_route: model.settings
+
+entity.model.canonical:
+  route_name: entity.model.canonical
+  base_route: entity.model.canonical
+  title: 'View'
+
+entity.model.edit_form:
+  route_name: entity.model.edit_form
+  base_route: entity.model.canonical
+  title: 'Edit'
+
+entity.model.version_history:
+  route_name: entity.model.version_history
+  base_route: entity.model.canonical
+  title: 'Revisions'
+
+entity.model.delete_form:
+  route_name:  entity.model.delete_form
+  base_route:  entity.model.canonical
+  title: Delete
+  weight: 10
+
+# Manufacturer routing definition
+manufacturer.settings_tab:
+  route_name: manufacturer.settings
+  title: 'Settings'
+  base_route: manufacturer.settings
+
+entity.manufacturer.canonical:
+  route_name: entity.manufacturer.canonical
+  base_route: entity.manufacturer.canonical
+  title: 'View'
+
+entity.manufacturer.edit_form:
+  route_name: entity.manufacturer.edit_form
+  base_route: entity.manufacturer.canonical
+  title: 'Edit'
+
+entity.manufacturer.delete_form:
+  route_name:  entity.manufacturer.delete_form
+  base_route:  entity.manufacturer.canonical
+  title: Delete
+  weight: 10
+# Vehicle rental routing definition
+vehicle_rental.settings_tab:
+  route_name: vehicle_rental.settings
+  title: 'Settings'
+  base_route: vehicle_rental.settings
+
+entity.vehicle_rental.canonical:
+  route_name: entity.vehicle_rental.canonical
+  base_route: entity.vehicle_rental.canonical
+  title: 'View'
+
+entity.vehicle_rental.edit_form:
+  route_name: entity.vehicle_rental.edit_form
+  base_route: entity.vehicle_rental.canonical
+  title: 'Edit'
+
+entity.vehicle_rental.delete_form:
+  route_name:  entity.vehicle_rental.delete_form
+  base_route:  entity.vehicle_rental.canonical
+  title: Delete
+  weight: 10
+
